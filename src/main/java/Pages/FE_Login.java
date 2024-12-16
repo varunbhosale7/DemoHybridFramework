@@ -11,7 +11,7 @@ public class FE_Login extends BaseUtils {
     public FE_Login(){
         PageFactory.initElements(driver,this);
     }
-
+	//Initialize WebElement
     @FindBy(xpath = "//input[@id='un']")
     public WebElement usernameTxt;
 
